@@ -4,7 +4,7 @@
     column-gap: 15px;
     padding: 10px 5px;
     background-color: rgb(149, 138, 155);
-    height: 35px;
+    height: auto;
     text-align: center;
 }
 .searchBar{
@@ -35,4 +35,41 @@ h3{
 }
 .cart-icon:hover,.searchIcon:hover,.locationLogo:hover,.header .logo:hover{
     color:aliceblue
+}
+.dropDown-content{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 16px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 3px;
+}
+.dropDown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: left;
+    display: block;
+    border-radius: 3px;
+   
+}
+.dropDown{
+    position: relative;
+    /* display: inline-block; */
+}
+a:hover {
+    background-color: rgb(221, 230, 230);
+}
+.dropDown:hover .dropDown-content{display: block}
+.dropDown:hover {
+    color: #f1f1f1;
+}
+.dropDown:hover .dropPin{
+    transform: rotate(180deg);
+}
+.dropPin{
+    font-size: 20px;
+    transition: 0.3s;
+    display: inline-block;
 }
