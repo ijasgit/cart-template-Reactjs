@@ -1,0 +1,9 @@
+.cart2{
+    border: 2px solid black;
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    column-gap: 20px;
+    justify-content: space-around;
+}
+
