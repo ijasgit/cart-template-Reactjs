@@ -15,6 +15,7 @@ const Lap = (param) => {
                 <h2>LapPrice:RS.{param.obj.price}</h2>
                 <br></br>
             </div>
+            
         </div>
     )
 

@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+    padding: 10px 5px;
+    background-color: rgb(149, 138, 155);
+    height: 35px;
+    text-align: center;
+}
+.searchBar{
+    height: 25px;
+    width: 1000px;
+    border: 2px solid ;
+    border-radius: 10px;
+    text-align: center;
+}
+.header .logo{
+    font-size: 25px;
+}
+h3{
+    padding: 2px;
+    margin: 0px;
+}
+.searchIcon{
+    padding-top: 02px;
+    font-size: 20px;
+}
+.searchIcon:hover{
+    color:rgb(255, 251, 251)
+}
+.cart-icon{
+    padding-top: 02px;
+    font-size: 20px;
+    font-weight: bold; 
+}
+.cart-icon:hover,.searchIcon:hover,.locationLogo:hover,.header .logo:hover{
+    color:aliceblue
+}

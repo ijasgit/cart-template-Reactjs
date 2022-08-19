@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Lap from './pages/lap/Lap';
-import Main from './pages/main/Main';
+import Main from './pages/main/Main'
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
